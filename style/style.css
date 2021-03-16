@@ -1,0 +1,43 @@
+/*Pagina Inicio*/
+
+body{
+   /*background: url(/GamesStore/DragFinal/img/fondo.png);*/ 
+    background-color: #272A35 !important;
+}
+
+.ContenedorImagen{
+    text-align: center;
+
+}
+.ContenedorBotones{
+    text-align: center;
+
+}
+@media(min-width: 300px){
+    body{
+     background-color: #272A35;
+    }
+    .Logo{
+        width: 100%;
+    }
+    .ContenedorImagen{
+        margin-top: 20%;
+    }
+    .ContenedorBotones{
+        margin-top: 5px;
+    }
+    .btn{
+     margin-top: 5px;
+    }
+}
+@media(min-width: 600px){
+    body{
+        background-color: #272A35;
+    }
+    .Logo{
+        width: 40%;
+    }
+    .ContenedorImagen{
+        margin-top: -50px;
+    }
+}

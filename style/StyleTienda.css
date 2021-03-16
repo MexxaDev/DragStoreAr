@@ -1,0 +1,87 @@
+.ContenedorHeader{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+body{
+       /*background: url(/GamesStore/DragFinal/img/fondo.png);*/ 
+       background-color: #272A35 !important;
+}
+
+@media(min-width: 300px){
+    /*Header*/
+    .ContenedorHeader{
+        background:#2b2d35;
+    }
+    .logo{
+        width:100%;
+    }
+    a{
+        text-decoration: none !important;
+        color: white!important;
+        margin-right: 10px;
+        margin-top: -50px;
+    }
+    .MenuesContenedor{
+        text-align: right;
+        margin-top: 20px;
+    }
+    /*Articulos*/
+    .GRID{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 100px;
+    }
+    .contenedor{
+        margin:10px
+    }
+    .imagenContenedor{
+        text-align: center;
+    }
+    .imagen{
+        width: 90%;
+    }
+    .ContenedorNombre{
+        text-align: center;
+    }
+    h6{
+        color: white;
+        font-size: 3px;
+    }
+    .botonContenedor{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media(min-width: 600px){
+    /*Header*/
+    .ContenedorHeader{
+        background:#2b2d35;
+        width: 100%;
+    }
+    .logo{
+        width:50%;
+    }
+    a{
+        text-decoration: none !important;
+        color: white!important;
+        text-align: right;
+        padding-right: 5px;
+    }
+    .MenuesContenedor{
+        text-align: right;
+        margin-top: 45px;
+    }
+    .GRID{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-top: 100px;
+    }
+
+}
